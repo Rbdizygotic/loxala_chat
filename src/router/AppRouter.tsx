@@ -10,7 +10,7 @@ const AppRouter: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/chat" element={
+        <Route path="/" element={
           <MainLayout>
             <Chat/>
           </MainLayout>
