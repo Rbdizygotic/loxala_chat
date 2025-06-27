@@ -13,7 +13,9 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         setHide(!hide);
     }
     return (
-        <div className="w-full h-[100vh] flex">
+        <div className="w-full sm:h-[100vh] h-auto flex flex-col sm:flex-row">
+            <div className="w-full sm:hidden flex justify-end items-center h-[40px] px-4">
+            </div>
             <div className={`transition-all duration-300 ease-in-out
                     ${hide ? "w-[100px] p-4 border-none" : "w-[300px] p-4 border-r border-[#EbEBEB]"}
                     hidden sm:block overflow-hidden`}>
