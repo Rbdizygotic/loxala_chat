@@ -1,6 +1,6 @@
 import React from "react";
 import Attachment from "@/assets/plus.svg";
-import Emoji from "@/assets/smiley.svg";
+import Emoji from "@/assets/Smiley.svg";
 import Microphone from "@/assets/microphone.svg";
 import Send from "@/assets/send.svg";
 
