@@ -1,7 +1,7 @@
 import React from "react";
 import Attachment from "@/assets/plus.svg";
 import Emoji from "@/assets/Smiley.svg";
-import Microphone from "@/assets/microphone.svg";
+import Microphone from "@/assets/Microphone.svg";
 import Send from "@/assets/send.svg";
 
 const ChatBox: React.FC = (
